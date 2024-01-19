@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import bg from './bg3.jpg';
 import './App.css';
 import ParticlesBackground from './components/ParticlesBackground';
 
@@ -6,28 +7,13 @@ function App() {
   return (
     <div className="App">
       <ParticlesBackground/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <header className="App-header"></header>
 
-      <div>
-        <InfoBox/>
-      </div>
-
-      <div>
-        <VisualBox/>
-      </div>
+      <InfoBox/>
+      {/* <VisualBox/> */}
+     
+      
 
 
     </div>
@@ -36,23 +22,33 @@ function App() {
 
 
 function InfoBox(){
-
   return (
     <div className='InfoBox'>
+      <LogoBox/>
+      <VisualBox/>
     </div>
 
   )
-
 }
 
-function VisualBox(){
 
+
+function VisualBox(){
   return (
     <div className='VisualBox'>
     </div>
 
   )
-
 }
+
+
+function LogoBox(){
+  return (
+    <div className='LogoBox'>
+    </div>
+
+  )
+}
+
 
 export default App;
