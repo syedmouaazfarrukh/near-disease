@@ -1,5 +1,5 @@
 .App {
-  position:relative; /* Add this line */
+  position:fixed; /* Add this line */
   height: 100%;
   width: 100%;
   background-image: url('./bg2.jpg');  /* Adjust the path based on your folder structure */
@@ -21,7 +21,7 @@
 .App-header {
   
   position: relative;
-  height: 1vh;
+  height: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,10 +33,10 @@
 
 .InfoBox {
   background-color: #000000;
-  height: 80vh;
-  width: 55vh;
+  height: 80%;
+  width: 26.5%;
   position: relative; /* Add this line */
-  margin-top: 10%;
+  margin-top: 6%;
   margin-bottom: 10%;
   margin-left: 5%;
   margin-right: 5%;
@@ -48,8 +48,8 @@
 
 .VisualBox {
   background-color: #000000;
-  height: 80vh;
-  width: 10vh;
+  height: 100%;
+  width: 100%;
   margin-top: 10vh;
   position: relative; /* Add this line */
   bottom: 10vh;
