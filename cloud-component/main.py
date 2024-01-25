@@ -67,22 +67,23 @@ def scrape_disease_data(country, url):
             country_data_list = []
 
             for country_data in data:
-                country_row = {
-                    "Updated": country_data["updated"],
-                    "Country": country_data["country"],
-                    "Cases": country_data["cases"],
-                    "Today Cases": country_data["todayCases"],
-                    "Deaths": country_data["deaths"],
-                    "Today Deaths": country_data["todayDeaths"],
-                    "Total Recovered": country_data["recovered"],
-                    "Today Recovered": country_data["todayRecovered"],
-                    "Active": country_data["active"],
-                    "Critical": country_data["critical"],
-                    "Tests": country_data["tests"],
-                    "Population": country_data["population"],
-                    "Continent": country_data["continent"],
-                }
-                country_data_list.append(country_row)
+                if country_data["country"] == "Afghanistan":
+                    country_row = {
+                        "Updated": country_data["updated"],
+                        "Country": country_data["country"],
+                        "Cases": country_data["cases"],
+                        "Today Cases": country_data["todayCases"],
+                        "Deaths": country_data["deaths"],
+                        "Today Deaths": country_data["todayDeaths"],
+                        "Total Recovered": country_data["recovered"],
+                        "Today Recovered": country_data["todayRecovered"],
+                        "Active": country_data["active"],
+                        "Critical": country_data["critical"],
+                        "Tests": country_data["tests"],
+                        "Population": country_data["population"],
+                        "Continent": country_data["continent"],
+                    }
+                    country_data_list.append(country_row)
 
             # Create a DataFrame from the list of country data
             df = pd.DataFrame(country_data_list)
@@ -101,7 +102,7 @@ def scrape_disease_data(country, url):
     return "Done"
 
 # Example usage:
-country_input = "All"
+country_input = "Afghanistan"
 url = 'https://disease.sh/v3/covid-19/countries'
 result = scrape_disease_data(country_input, url)
 print(result)
