@@ -110,7 +110,6 @@ print(result)
 
 
 
-
 # country_input = "All"
 # urll = 'https://data.who.int/countries/586'
 # result = scrape_data(country_input,urll)
