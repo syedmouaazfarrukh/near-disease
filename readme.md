@@ -12,3 +12,13 @@ Near Disease is a web application designed to empower users with timely and loca
 * Frontend: **[Placeholder]** (Specify the frontend framework/library you'll use, e.g., React, Vue.js, Angular)
 * Database: **[Placeholder]** (Specify the database you'll use, e.g., MySQL, PostgreSQL, MongoDB)
 * GIS Technologies (if applicable): **[Placeholder]** (Mention any specific GIS libraries or APIs you'll use, e.g., Leaflet, GeoPandas)
+
+
+**Key Features:**
+
+* **Personalized Disease Alerts:** Near Disease leverages user location data (with proper user consent and privacy safeguards) to provide tailored notifications about prevalent diseases in their vicinity.
+* **Detailed Disease Information:** Users can access comprehensive information about each disease, including symptoms, treatments, prevention tips, and relevant statistics.
+* **Interactive Disease Map:** A dynamic map visualization displays the geographical distribution of diseases, facilitating spatial understanding and risk assessment.
+* **Reliable Data Sources:** The app is committed to providing accurate and up-to-date information by drawing data from trusted sources like government agencies, public health organizations, and reputable medical institutions.
+* **User-Friendly Interface:** The interface is designed to be intuitive and accessible, allowing users of all tech levels to easily navigate and benefit from the app's features.
+
