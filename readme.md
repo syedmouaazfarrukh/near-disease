@@ -47,4 +47,3 @@ Near Disease is a web application designed to empower users with timely and loca
 * Feel free to personalize the readme with your own branding, style, and specific requirements.
 * Consider adding sections for contribution guidelines, license information, and a disclaimer.
 
-Remember that this is a template, and you'll need to replace the placeholders with the specific details of your project. I hope this enhanced README helps you present your Near Disease app effectively!
