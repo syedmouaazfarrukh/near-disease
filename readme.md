@@ -41,10 +41,6 @@ Near Disease is a web application designed to empower users with timely and loca
 4. **Documentation:** Provide clear documentation for API endpoints and code structure.
 
 
-**Disclaimer:**
-
-* Near Disease is intended for informational purposes only and should not be a substitute for professional medical advice. Please consult with a healthcare professional if you have any questions or concerns about your health.
-
 **Additional Notes:**
 
 * Regularly update the README to reflect project progress and changes.
