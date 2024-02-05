@@ -22,3 +22,21 @@ Near Disease is a web application designed to empower users with timely and loca
 * **Reliable Data Sources:** The app is committed to providing accurate and up-to-date information by drawing data from trusted sources like government agencies, public health organizations, and reputable medical institutions.
 * **User-Friendly Interface:** The interface is designed to be intuitive and accessible, allowing users of all tech levels to easily navigate and benefit from the app's features.
 
+**Setup and Installation (for developers):**
+
+1. **Prerequisites:**
+   - **[Placeholder]** (List any required software or dependencies)
+2. **Local Development Environment:**
+   - Clone the repository: `git clone https://github.com/your-username/near-disease.git`
+   - Install dependencies: `[Placeholder]` (Provide specific installation instructions)
+   - Run the development server: `[Placeholder]` (Provide the command to start the server)
+3. **Production Deployment:**
+   - **[Placeholder]** (Describe how to deploy the app to a production environment)
+
+**Contribution Guidelines:**
+
+1. **Pull requests:** Follow standard Git best practices (clear commit messages, proper branching).
+2. **Coding style:** Adhere to consistent code formatting (use a linter/formatter).
+3. **Testing:** Include unit and integration tests.
+4. **Documentation:** Provide clear documentation for API endpoints and code structure.
+
