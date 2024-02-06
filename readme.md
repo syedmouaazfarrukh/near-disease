@@ -41,9 +41,3 @@ Near Disease is a web application designed to empower users with timely and loca
 4. **Documentation:** Provide clear documentation for API endpoints and code structure.
 
 
-**Additional Notes:**
-
-* Regularly update the README to reflect project progress and changes.
-* Feel free to personalize the readme with your own branding, style, and specific requirements.
-* Consider adding sections for contribution guidelines, license information, and a disclaimer.
-
