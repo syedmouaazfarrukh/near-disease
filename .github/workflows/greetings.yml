@@ -8,6 +8,9 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+      AWSCLI_VERSION: 0.0.0
     steps:
       - uses: actions/first-interaction@v1
         with:
