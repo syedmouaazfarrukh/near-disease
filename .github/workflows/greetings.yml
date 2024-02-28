@@ -9,6 +9,8 @@ jobs:
       issues: write
       pull-requests: write
     env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       ACTIONS_ALLOW_UNSECURE_COMMANDS: true
       AWSCLI_VERSION: 0.0.0
     steps:
@@ -23,6 +25,8 @@ jobs:
           echo "PATH=/opt/hostedtoolcache/aws-copilot/1.33.1/x64:$PATH" >> $GITHUB_ENV
         shell: bash
         env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
       - name: Send Welcome Email
@@ -30,4 +34,6 @@ jobs:
         with:
           args: ses send-email --source "mouaazfarrukh99@gmail.com" --destination "ToAddresses=mouaazfarrukh99@gmail.com" --message "Subject={Data='Welcome to the Repository!'},Body={Text={Data='Hi ${{ github.event.sender.login }},\n\nWelcome to the repository! You\'ll be making a near disease.'}}"
         env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
