@@ -1,0 +1,22 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Message that will be displayed on users' first issue"
+          pr-message: "Message that will be displayed on users' first pull request"
+
+      - name: Send Welcome Email
+        uses: softprops/action-aws-cli@v1
+        with:
+          args: ses send-email --source "mouaazfarrukh99@gmail.com" --destination "ToAddresses=m.shafqat2020@gmail.com" --message "Subject={Data='Welcome to the Repository!'},Body={Text={Data='Hi ${{ github.event.sender.login }},\n\nWelcome to the repository! You\'ll be making a near disease.'}}"
+
