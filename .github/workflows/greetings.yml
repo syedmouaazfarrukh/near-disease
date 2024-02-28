@@ -1,4 +1,4 @@
-name: Greetings-ND
+name: Greetings
 
 on: [pull_request_target, issues]
 
@@ -16,7 +16,7 @@ jobs:
           pr-message: "Message that will be displayed on users' first pull request"
 
       - name: Send Welcome Email
-        uses: softprops/action-aws-cli@v1
+        uses: softprops/setup-aws-copilot@v1
         with:
           args: ses send-email --source "mouaazfarrukh99@gmail.com" --destination "ToAddresses=mouaazfarrukh99@gmail.com" --message "Subject={Data='Welcome to the Repository!'},Body={Text={Data='Hi ${{ github.event.sender.login }},\n\nWelcome to the repository! You\'ll be making a near disease.'}}"
 
