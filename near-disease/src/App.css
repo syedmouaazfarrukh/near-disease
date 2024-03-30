@@ -1,25 +1,42 @@
 .App {
-  position:fixed; /* Add this line */
-  height: 100%;
-  width: 100%;
-  background-image: url('./bg2.jpg');  /* Adjust the path based on your folder structure */
+  display: flex;
+  /* background-image: url('./bg2.jpg');
   background-size: cover;
+  height: 100%;
+  width: 100%; */
+
 }
 
-.App-logo {
+.AppGrid {
+  background-color: transparent;
+  /* padding: 50px 50px 50px 50px; */
+  margin: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height:100%;
+}
+
+.AppGrid-child {
+  background-color: #000000;
+  opacity: 92%;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
   position: relative;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
-  
+/* .App-header {
   position: relative;
   height: 1%;
   display: flex;
@@ -28,63 +45,50 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 
-.InfoBox {
-  background-color: #000000;
-  height: 80%;
-  width: 26.5%;
-  position: relative; /* Add this line */
-  margin-top: 6%;
-  margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  z-index: 0; /* Add this line */
-  opacity: 92%;
-  padding: 10;
-}
 
 
-.VisualBox {
+/* .VisualBox {
   background-color: #000000;
   height: 100%;
   width: 100%;
   margin-top: 10vh;
-  position: relative; /* Add this line */
+  position: relative; 
   bottom: 10vh;
-  top: -27vh; /* Add this line */
-  left: 62vh; /* Add this line */
-  right: 10vh; /* Add this line */
-  z-index: 0; /* Add this line */
+  top: -27vh; 
+  left: 62vh; 
+  right: 10vh; 
+  z-index: 0; 
   opacity: 92%;
-}
+} */
 
-.LogoBox {
-  background-color: #ffffff;
+/* .LogoBox {
+  background-color: #000000;
   height: 21%;
   width: 32%;
   border-radius: 50%;
-  position: relative; /* Add this line */
-  top: -4%; /* Add this line */
-  left: 33%; /* Add this line */
-  right: 0; /* Add this line */
-  z-index: 1; /* Add this line */
+  position: relative; 
+  top: -4%; 
+  left: 33%; 
+  right: 0;
+  z-index: 1; 
   opacity: 92%;
 
-}
+} */
 
 
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
