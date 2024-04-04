@@ -4,6 +4,7 @@ import './LoginSignup.css'
 import user_icon from '../assets/person.png'
 import email_icon from '../assets/email.png'
 import password_icon from '../assets/password.png'
+import logo from '../assets/logo.png' // Import your logo file here
 
 
 
@@ -17,9 +18,15 @@ const LoginSignup = () => {
     return (
         <div className="container">
             <div className=" header">
+
+                 {/* Add your logo here */}
+                <img src={logo} alt="Logo" className="logo" />
+
                 <div className="text">{action}</div>
                 <div className=" underline"></div>                
             </div>
+
+           
 
             <div className="inputs">
 
