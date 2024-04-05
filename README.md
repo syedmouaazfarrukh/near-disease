@@ -1,6 +1,6 @@
 # AI-Dashboard Generator
 
-![AI-Dashboard Generator Logo](near-disease\public\logo.png)
+![AI-Dashboard Generator Logo](./near-disease/public/logo.png)
 
 AI-Dashboard Generator is a web tool designed to streamline the process of creating interactive dashboards from CSV data. With this tool, users can easily upload their CSV files, which are then transformed into pandas dataframes for analysis. Key Performance Indicators (KPIs) are evaluated from the data, and a customizable dashboard is automatically generated, providing valuable insights at a glance.
 
