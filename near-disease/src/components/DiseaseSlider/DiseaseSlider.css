@@ -50,25 +50,25 @@
     gap: 25px;
 }
 
-.input{
+.inputds{
 
     display: flex;
     align-items: center;
     margin: auto;
-    width: 300px;
+    width: 95%;
     height: 54px;
     background: rgb(0, 0, 0);
     border-radius: 6px;
 }
 
-.input img{
+.inputds img{
 
     margin: 0px 30px;
 
 }
 
 
-.input input{
+.inputds input{
 
     height: 50px;
     width: 220px;
@@ -141,4 +141,10 @@
     width: 100%;
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px;
+  }
+
+
+  .button{
+    margin-left: 50%;
+    position: relative;
   }
